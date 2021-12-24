@@ -101,6 +101,9 @@ $colors: (
     .ls-#{$i} {
       letter-spacing: #{$i}px;
     }
+    .z-index-#{$i} {
+      z-index: $i;
+    }
   }
   @if $i <= 5 {
     @each $color_name, $color_value in $colors {
@@ -398,8 +401,4 @@ $colors: (
 }
 .text-uppercase {
   text-transform: uppercase;
-}
-
-.z-max {
-  z-index: 100;
 }
