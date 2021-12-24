@@ -58,7 +58,14 @@ background (colors are taken from the color palette listed above)
 ```
 text-color (colors are taken from the color palette listed above)
 ```scss
+.text-primary
+.text-secondary
+.text-accent
 .text-dark
+.text-positive
+.text-negative
+.text-info
+.text-warning
 ```
 
 font-weight (font-weight between 100 and 900)
