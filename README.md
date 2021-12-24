@@ -1,2 +1,2 @@
 # css
-Ready css classes
+Ready css classes, just copy and paste
