@@ -45,34 +45,83 @@ $colors: (
 
 ### Classes
 
-background (colors are taken from the color palette listed above)
+background
 ```scss
-.bg-primary
-.bg-secondary
-.bg-accent
 .bg-dark
-.bg-positive
-.bg-negative
-.bg-info
-.bg-warning
 ```
-text-color (colors are taken from the color palette listed above)
+text-color
 ```scss
 .text-dark
 ```
 
-font-weight (font-weight between 100 and 900)
+font-weight (value between 100 and 900)
 ```scss
-.fw_100
-.fw_200
-.fw_300
-.fw_400
 .fw_500
-.fw_600
-.fw_700
-.fw_800
-.fw_900
 ```
 
+font-size (value between 1 and 100 pixels)
+```scss
+.fs-18
+```
+
+line-height (value between 1 and 100 pixels)
+```scss
+.lh-18
+```
+
+letter-spacing (value between 1 and 100 pixels)
+```scss
+.ls-18
+```
+
+text-align
+```scss
+.text-left
+.text-center
+.text-right
+```
+
+text-transform
+```scss
+.text-capitalize
+.text-lowercase
+.text-uppercase
+```
+
+height (value between 1 and 100 pixels)
+```scss
+.h-44 // height
+.min-h-44 // min-height
+.max-h-44 // max-height
+```
+
+width (value between 1 and 100 pixels)
+```scss
+.w-44 // width
+.min-w-44 // min-width
+.max-w-44 // max-width
+```
+
+margin (value between 1 and 100 pixels)
+```scss
+.ma-18 // margin all
+.mt-18 // margin top
+.mr-18 // margin right
+.mb-18 // margin bottom
+.ml-18 // margin left
+.my-18 // margin y axis
+.mx-18 // margin x axis
+```
+
+padding (value between 1 and 100 pixels)
+```scss
+.pa-18 // padding all
+.pt-18 // padding top
+.pr-18 // padding right
+.pb-18 // padding bottom
+.pl-18 // padding left
+.py-18 // padding y axis
+.px-18 // padding x axis
+```
 
 
