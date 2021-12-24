@@ -45,7 +45,7 @@ $colors: (
 
 ### Classes
 
-background (colors are taken from the color palette listed above)
+background
 ```scss
 .bg-primary
 .bg-secondary
@@ -56,7 +56,7 @@ background (colors are taken from the color palette listed above)
 .bg-info
 .bg-warning
 ```
-text-color (colors are taken from the color palette listed above)
+text-color
 ```scss
 .text-primary
 .text-secondary
@@ -68,7 +68,7 @@ text-color (colors are taken from the color palette listed above)
 .text-warning
 ```
 
-font-weight (font-weight between 100 and 900)
+font-weight (value between 100 and 900)
 ```scss
 .fw_100
 .fw_200
@@ -81,5 +81,9 @@ font-weight (font-weight between 100 and 900)
 .fw_900
 ```
 
+font-size (value between 1 and 100 pixels)
+```scss
+.fs-16
+```
 
 
