@@ -226,7 +226,7 @@ z-index (value between 1 and 10)
 
 ### Flex and grid
 
-grid (the grid based on 24 cols)
+grid (based on 24 cols)
 ```scss
 .row
 .column
