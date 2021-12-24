@@ -124,4 +124,103 @@ padding (value between 1 and 100 pixels)
 .px-18 // padding x axis
 ```
 
+cursor
+```scss
+.cursor-pointer
+.cursor-help
+.cursor-move
+.cursor-crosshair
+```
+
+display
+```scss
+.flex
+.block
+.inline
+.inline-block
+```
+
+overflow
+```scss
+.overflow-auto
+.overflow-hidden
+.overflow-scroll
+.overflow-visible
+.overflow-y-auto
+.overflow-y-hidden
+.overflow-y-scroll
+.overflow-y-visible
+.overflow-x-auto
+.overflow-x-hidden
+.overflow-x-scroll
+.overflow-x-visible
+```
+
+position
+```scss
+.absolute
+.fixed
+.relative
+.sticky
+```
+
+positioning (value between 1 and 100 pixels)
+```scss
+.top-44
+.right-44
+.bottom-44
+.left-44
+```
+
+float
+```scss
+.float-left
+.float-right
+.float-none
+```
+
+box-sizing
+```scss
+.content-box
+.border-box
+```
+
+border (value between 1 and 5 pixels)
+```scss
+.ba-1-dark // border all 1px dark 
+.bt-1-dark // border top 1px dark 
+.br-1-dark // border right 1px dark 
+.bb-1-dark // border bottom 1px dark 
+.bl-1-dark // border left 1px dark 
+```
+
+border-radius (value between 1 and 100 pixels)
+```scss
+.br-a-18 // border-radius all 18px
+.br-t-18 // border-radius top 18px
+.br-r-18 // border-radius right 18px
+.br-b-18 // border-radius bottom 18px
+.br-l-18 // border-radius left 18px
+```
+
+border-collapse
+```scss
+.border-collapse
+.border-separate
+```
+
+box-shadow (value between 1 and 10 pixels)
+```scss
+.shadow-5
+```
+
+opacity (value between 1 and 10 pixels)
+```scss
+.opacity-5 // opacity: 0.5;
+```
+
+z-index (value between 1 and 10)
+```scss
+.z-index-5
+```
 
