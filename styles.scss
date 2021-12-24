@@ -92,8 +92,10 @@ $colors: (
   .left-#{$i} {
     left: #{$i}px;
   }
-  .col-#{$i} {
-    flex-basis: #{$i} + '%';
+  @if $i <= 24 {
+    .col-#{$i} {
+      grid-column: span $i;
+    }
   }
   @if $i <= 10 {
     .ls-#{$i} {
@@ -313,12 +315,16 @@ $colors: (
 }
 
 .row {
-  display: flex;
+  display: grid;
+  display: -moz-grid;
+  grid-template-columns: repeat(24, 1fr);
   flex-direction: row;
 }
 
 .column {
-  display: flex;
+  display: grid;
+  display: -moz-grid;
+  grid-template-columns: repeat(24, 1fr);
   flex-direction: column;
 }
 
