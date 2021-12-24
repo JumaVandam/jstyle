@@ -224,3 +224,42 @@ z-index (value between 1 and 10)
 .z-index-5
 ```
 
+### Flex and grid
+
+grid (the grid based on 24 cols)
+```scss
+.row
+.column
+```
+
+col (value between 1 and 24)
+```scss
+.col-12 // is half
+```
+
+flex
+```scss
+.flex
+.no-wrap
+.fb-100 // flex-basis: 100%;
+```
+
+justify-content
+```scss
+.justify-start
+.justify-between
+.justify-baseline
+.justify-stretch
+.justify-evenly
+.justify-around
+.justify-end
+```
+
+align-items
+```scss
+.items-start
+.items-center
+.items-baseline
+.items-stretch
+.items-end
+```
